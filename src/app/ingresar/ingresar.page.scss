@@ -1,0 +1,63 @@
+ion-toolbar {
+    --background: #2a2a72;
+    --color: white;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .trip-card {
+    background: #f9f9f9;
+    margin: 5px; 
+    border-radius: 6px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+    padding: 3px; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .trip-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .trip-title {
+    font-size: 1rem; 
+    color: #2a2a72;
+    font-weight: bold;
+    margin-bottom: 2px; 
+  }
+  
+  .trip-details {
+    font-size: 0.9rem; 
+    color: #555;
+    margin-bottom: 4px; 
+  }
+  
+  .no-trips {
+    text-align: center;
+    color: #777;
+    font-size: 1rem;
+    margin-top: 15px; 
+  }
+  
+  ion-button {
+    --border-radius: 4px; 
+    --padding-top: 0;
+    --padding-bottom: 0;
+    height: 28px; 
+    font-size: 0.8rem; 
+  }
+  
+  ion-button[color="success"] {
+    --background: #28a745;
+  }
+  
+  ion-button[color="primary"] {
+    --background: #007bff;
+    --color: #fff;
+    --border-color: #007bff;
+  }
+  
